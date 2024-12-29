@@ -96,7 +96,7 @@ const LineChart = () => {
     plugins: {
       title: {
         display: true,
-        text: '',
+        text: 'Average Price of 1 USD',
       },
       tooltip: {
         mode: 'index',
@@ -117,7 +117,7 @@ const LineChart = () => {
       y: {
         title: {
           display: true,
-          text: 'Price of USD in YR',
+          text: 'Yemeni Riels',
         },
         ticks: {
           beginAtZero: false,
